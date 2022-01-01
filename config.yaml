@@ -46,7 +46,7 @@ params:
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
-  background: "images/background/space-19070.jpg"
+  background: /images/background/space-19070.jpg
   # Configure various features of this theme
   features:
     # Enable and configure portfolio
