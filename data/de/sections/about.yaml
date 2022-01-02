@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Entwickler
+designation: Software Entwickler/Architekt
 # your company information
 company:
   name: IBM
@@ -18,71 +18,56 @@ company:
 resume: "files/CV_Krueckmeyer_de_20201209.pdf"
 
 ## a summary about you
-#summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'Leidenschaftlicher Softwareentwickler und IT Architekt seit 2008 vor allem im Bereich Webentwicklung, DevOps, Cloud Computing und agiler Softwareentwicklung.'
 #
 ## your social links
 ## give as many as you want. use font-awesome for the icons.
-#socialLinks:
-#  - name: Email
-#    icon: "fas fa-envelope"
-#    url: "example@gmail.com"
-#
-#  - name: Github
-#    icon: "fab fa-github"
-#    url: "https://www.github.com/example"
-#
-#  - name: Stackoverflow
-#    icon: "fab fa-stack-overflow"
-#    url: "#"
-#
-#  - name: LinkedIn
-#    icon: "fab fa-linkedin"
-#    url: "#"
-#
-#  - name: Twitter
-#    icon: "fab fa-twitter"
-#    url: "#"
-#
-#  - name: Facebook
-#    icon: "fab fa-facebook"
-#    url: "#"
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "kolja.krueckmeyer@gmail.com"
+
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/KoljaKrueckmeyer"
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/kolja-marius-kr%C3%BCckmeyer-42072020a/"
+
+  - name: Xing
+    icon: "fab fa-xing"
+    url: "https://www.xing.com/profile/KoljaMarius_Krueckmeyer"
+
+  - name: Credly
+    icon: "fab fa fa-id-badge fa-2"
+    url: "https://www.credly.com/users/kolja-kruckmeyer/badges"
 #
 ## Show your badges
 ## You can show your verifiable certificates from https://www.credly.com.
 ## You can also show a circular bar indicating the level of expertise on a certain skill
-#badges:
-#  - type: certification
-#    name: Certified Kubernetes Security Specialist
-#    url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-#    badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
-#
-#  - type: certification
-#    name: Istio and IBM Cloud Kubernetes Service
-#    url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-#    badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-#
-#  - type: certification
-#    name: Artificial Intelligence and Machine Learning
-#    url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-#    badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
-#
-#  - type: soft-skill-indicator
-#    name: Leadership
-#    percentage: 85
-#    color: blue
-#
-#  - type: soft-skill-indicator
-#    name: Team Work
-#    percentage: 90
-#    color: yellow
-#
-#  - type: soft-skill-indicator
-#    name: Hard Working
-#    percentage: 85
-#    color: orange
+badges:
+  - type: certification
+    name: "Professional Certification: Level 1 - Certified Solution Architect"
+    url: "https://www.credly.com/badges/8a52026c-9e53-4540-a051-dd0a1375b397"
+    badge: "https://images.credly.com/size/220x220/images/5f0b34f7-d488-4e8c-8a1d-e87e3adfcefe/badge-openca-certified.png"
 
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+  - type: certification
+    name: Containers, K8s and Istio on IBM Cloud
+    url: "https://www.credly.com/badges/aa559c3f-de57-4372-9ae3-9b5fa6dc2b6c"
+    badge: "https://images.credly.com/size/220x220/images/c848b101-661f-4f3a-bc8f-f9c977a55524/Containers-K8s-istio-IBM_cloud_v2.png"
+
+  - type: certification
+    name: Machine Learning
+    url: "https://www.coursera.org/account/accomplishments/verify/EUGZY38FVWV6"
+    badge: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/e8/7cc3d09d3f11e698dfff46d35f2da1/Stanford_Coursera_Logo.png?auto=format%2Ccompress&dpr=1&w=120&h=120&q=40"
+
+  - type: certification
+    name: Professional Scrum Master (PSM I)
+    url: "https://www.credly.com/earner/earned/badge/116fc10d-2212-44b4-846b-2177624bcc23"
+    badge: "https://images.credly.com/size/220x220/images/12bddaac-9b71-43fd-a81e-71ebd144ee52/BADGES_FINAL_PSM-I_600.png"
+
+  - type: certification
+    name: DevSecOps Essentials
+    url: "https://www.credly.com/earner/earned/badge/ab3b590f-e353-40f4-9d66-c26864a95800"
+    badge: "https://images.credly.com/size/220x220/images/6fcae0c0-78b7-48c5-a414-5d21665b2250/DevSecOps-Essentials.png"
