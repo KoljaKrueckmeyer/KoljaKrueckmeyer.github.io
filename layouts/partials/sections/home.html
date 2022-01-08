@@ -1,3 +1,5 @@
+<html lang="en">
+
 {{ $author:= site.Data.author }}
 {{ if (index site.Data site.Language.Lang).author }}
   {{ $author = (index site.Data site.Language.Lang).author }}
@@ -73,6 +75,20 @@
   {{ $large := $src}}
 {{ end }}
 
+<head>
+  <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+    new Crate({
+      server: '929460911289290832', // Server von Kolja
+      channel: '929460914875424801', // #Allgemein
+      glyph: ["{{$authorImage.RelPermalink}}", '100%']
+    });
+    crate.notify({
+      content: 'Chatte mit mir via Discord',
+      timeout: 10000
+    })
+  </script>
+</head>
+
 <div class="container-fluid home" id="home">
   <style>
     /* 0 to 299 */
@@ -138,3 +154,4 @@
     {{ end }}
   </div>
 </div>
+</html>
