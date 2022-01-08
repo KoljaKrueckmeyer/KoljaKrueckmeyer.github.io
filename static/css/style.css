@@ -1,0 +1,13 @@
+.initial-navbar li a {
+    color: #dbdbdc;
+}
+
+.initial-navbar .navbar-brand {
+    color: #dbdbdc;
+}
+
+.nested-img img {
+    width:auto;
+    max-width:none;
+    display:inline;
+}

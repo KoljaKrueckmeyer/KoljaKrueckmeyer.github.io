@@ -1,0 +1,44 @@
+section:
+  name: Hobbys und Interessen
+  id: hobbies
+  enable: true
+  weight: 7
+  showOnNavbar: true
+
+hobbies:
+  - name: Theater spielen
+    icon: "fas fa-theater-masks"
+    summary: Ich spiele hin und wieder Theater in einem Amatuerverein.
+    images:
+      - img: "images/hobbies/theatre/DNW.jpg"
+        caption: Der nackte Wahnsinn 2017 (Musical Company Pinneberg)
+      - img: "images/hobbies/theatre/Compilation.jpeg"
+        caption: Compilation 2019 (Aelita Hamburg)
+  - name: Sport
+    icon: "fas fa-running"
+    summary: Sport und Bewegung ist zu einem wichtigen Teil in meinem Leben geworden. Dabei probiere ich gern Neues aus.
+    images:
+        - img: "images/hobbies/sports/Staffellauf.jpg"
+          caption: Staffellauf im Hamburger Stadtpark 2019
+        - img: "images/hobbies/sports/Sandkuhle.PNG"
+          caption: Crossfit und Kraftausdauersport
+        - img: "images/hobbies/sports/Rennrad.jpg"
+          caption: Cyclassics 2010
+        - img: "images/hobbies/sports/Reiten.jpg"
+          caption: Ein bisschen Reiten kann ich auch (Insel Römö 2015)
+        - img: "images/hobbies/sports/Bowling2_1.jpg"
+          caption: Bowling Oberliga 2005-2007
+        - img: "images/hobbies/sports/Bowling1.jpg"
+          caption: Training mit US Bowling Profi Brian Voss
+  - name: Finanzielle Bildung
+    icon: "fas fa-piggy-bank"
+    summary: "Der Aufbau von finanzieller Allgemeinbildung ist heute wichtiger denn je und um einen privaten Vermögensaufbau
+    muss man sich selbst kümmern.
+    Leider habe ich die Erfahrung gemacht, dass viele sogenannte Finanzberater eigentlich nur Verkäufer sind
+    und mehr an Ihrer Provision interssiert sind als sinnvolle Produkte und Strategien zu empfehlen.
+    Ich bin froh vieles von den üblich am Markt verfügbaren Finanzprodukten nicht in Anspruch genommen zu haben.
+    Stattdessen habe ich selbst in die Thematik eingelesen und mir eine eigene kostengünstige Anlagestrategie überlegt.
+    Kontaktieren Sie mich gerne, wenn Sie mehr darüber erfahren möchten."
+
+    
+

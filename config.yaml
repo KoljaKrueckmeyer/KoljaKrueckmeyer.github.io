@@ -47,6 +47,9 @@ params:
   enableTOC: true
 
   background: /images/background/space-19070.jpg
+
+  css: ["css/sections.hobbies.css"]
+
   # Configure various features of this theme
   features:
     # Enable and configure portfolio

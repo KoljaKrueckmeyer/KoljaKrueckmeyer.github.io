@@ -1,0 +1,110 @@
+.lightboximage  {
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.caption {
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: .5em;
+}
+#lightbox .lb-data .lb-details {
+    text-align: center;
+}
+
+.hobbies-section .card .card-head {
+    background-color: #f9fafc;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0.7rem;
+    padding-bottom: 0rem;
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.125);
+}
+
+.hobbies-section h1 > span{
+    margin-top: -55px;  /* Size of fixed header */
+    padding-bottom:55px;
+    display: block;
+}
+
+.hobbies-section .skill-card-link {
+    text-decoration: none;
+}
+
+.hobbies-section .card .card-img-xs {
+    margin-right: 0.5rem;
+}
+
+.hobbies-section .card {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 100%;
+}
+#hobbies .card-text {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hobbies-section .card .card-body {
+    padding-top: 0.2rem;
+    padding-left: 0.7rem;
+}
+
+.hobbies-section .row {
+    margin-bottom: 1.5rem;
+}
+/* ============= Device specific fixes ======= */
+
+/* Large screens such as TV */
+@media only screen and (min-width: 1824px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+/* IPad Pro */
+@media (max-width: 1024px) {
+}
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+    .hobbies-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .hobbies-section .container {
+        max-width: 95%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media only screen and (max-width: 576px) {
+}
+
+/* iPhoneX, iPhone 6,7,8 */
+@media only screen and (max-width: 375px) {
+}
+
+/* Galaxy S5, Moto G4 */
+@media only screen and (max-width: 360px) {
+}
+
+/* iPhone 5 or before */
+@media only screen and (max-width: 320px) {
+}

@@ -1,0 +1,35 @@
+<div class="col">
+    <a class="hobby-card-link" {{ if .url }}href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"{{ end }}>
+        <div class="card">
+            <div class="card-head d-flex">
+                {{ if .logo }}
+                {{ $logoImage := resources.Get .logo }}
+
+                {{/*  svg don't support "Fit" operation   */}}
+                {{ if ne $logoImage.MediaType.SubType "svg" }}
+                {{ $logoImage = $logoImage.Fit "24x24" }}
+                {{ end }}
+
+                <img class="card-img-xs" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" />
+                {{ end }}
+                <h5 class="card-title"><i class="{{ .icon }}"></i> {{ .name }}</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">{{ .summary | markdownify }}</p>
+
+                {{ if .images }}
+                {{ range $img := .images }}
+                {{ $hobbyImage := resources.Get $img.img }}
+                {{ $resized := $hobbyImage.Fill "150x115 q90 TopRight" }}
+                <a class="lightboximage" href="{{ $hobbyImage.Permalink }}" data-lightbox="x" data-title="{{.caption}}">
+                    <img src="{{ $resized.Permalink }}" />
+                </a>
+                {{/* $img.img */}}
+                {{ end }}
+                {{ end }}
+            </div>
+
+
+        </div>
+    </a>
+</div>
