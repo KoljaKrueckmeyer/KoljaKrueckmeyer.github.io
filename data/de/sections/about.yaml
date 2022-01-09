@@ -15,7 +15,7 @@ company:
   url: "https://www.ibm.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/CV_Krueckmeyer_de_20201209.pdf"
+resume: "files/ModernCV_Krueckmeyer_de_20210109.pdf"
 
 ## a summary about you
 summary: 'Ich bin leidenschaftlicher Softwareentwickler und IT Architekt aus Hamburg. Meine Schwerpunkte liegen in den Bereichen Webentwicklung, DevOps, Cloud Computing und agiler Softwareentwicklung.'
