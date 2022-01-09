@@ -76,6 +76,8 @@
 {{ end }}
 
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
   <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
     new Crate({
       server: '929460911289290832', // Server von Kolja
@@ -84,7 +86,7 @@
     });
     crate.notify({
       content: 'Chatte mit mir via Discord',
-      timeout: 10000
+      timeout: 4000
     })
   </script>
 </head>
@@ -117,13 +119,77 @@
           background-image: url('{{ strings.TrimSuffix "/" site.BaseURL }}{{ $src.RelPermalink }}');
         }
     }
+
+    /* social bar */
+    .icon-bar {
+      position: fixed;
+      top: 0.25rem;
+      -webkit-transform: translateY(-5%);
+      -ms-transform: translateY(-5%);
+      transform: translateY(-5%);
+      /*right: 15px;*/
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      z-index: 99999;
+    }
+
+    .icon-bar a {
+      /*display: block;*/
+      float: left;
+      text-align: center;
+      padding: 4px;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 20px;
+    }
+
+    .icon-bar a:hover {
+      background-color: #000;
+    }
+
+    .facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .google {
+      background: #dd4b39;
+      color: white;
+    }
+
+    .linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .youtube {
+      background: #bb0000;
+      color: white;
+    }
+
     </style>
     <span class="on-the-fly-behavior"></span>
   <div
     id="homePageBackgroundImageDivStyled"
     class="background container-fluid"
   ></div>
+
   <div class="container content text-center">
+
+    <div class="navbar icon-bar">
+      <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+    </div>
+
     <img src="{{ $authorImage.RelPermalink }}"
       class="rounded-circle mx-auto d-block img-fluid"
       alt="Author Image"
