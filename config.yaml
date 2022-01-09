@@ -99,3 +99,5 @@ params:
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
       enable: true
+    disclaimer:
+      enable: true
