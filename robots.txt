@@ -1,1 +1,8 @@
 User-agent: *
+Disallow: /tags/
+Disallow: /categories/
+Disallow: /search/
+
+
+
+Sitemap: https://www.krueckmeyer.de/sitemap.xml
