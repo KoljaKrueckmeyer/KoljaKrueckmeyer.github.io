@@ -34,6 +34,8 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
+enableRobotsTXT: true
+
 # Site parameters
 params:
   # GitHub repo URL and branch of your site
