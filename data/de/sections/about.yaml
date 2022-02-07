@@ -42,6 +42,10 @@ socialLinks:
   - name: Credly
     icon: "fab fa fa-id-badge fa-2"
     url: "https://www.credly.com/users/kolja-kruckmeyer/badges"
+
+  - name: YouTube
+    icon: "fab fa-youtube"
+    url: "https://www.youtube.com/channel/UC1n3ebks0DUgXMitaLzn9qg"
 #
 ## Show your badges
 ## You can show your verifiable certificates from https://www.credly.com.
