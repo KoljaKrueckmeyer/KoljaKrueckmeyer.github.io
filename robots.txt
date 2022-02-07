@@ -5,4 +5,4 @@ Disallow: /search/
 
 
 
-Sitemap: https://kolja.kr%C3%BCckmeyer.de/sitemap.xml
+Sitemap: https://kolja.xn--krckmeyer-r9a.de/sitemap.xml
