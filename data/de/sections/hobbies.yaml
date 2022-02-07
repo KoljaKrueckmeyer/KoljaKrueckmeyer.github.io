@@ -30,6 +30,8 @@ hobbies:
           caption: Bowling Oberliga 2005-2007
         - img: "images/hobbies/sports/Bowling1.jpg"
           caption: Training mit US Bowling Profi Brian Voss
+        - img: "images/hobbies/sports/Tauchen1.jpg"
+          caption: Tauchen im Urlaub
   - name: Finanzielle Bildung
     icon: "fas fa-piggy-bank"
     summary: "Der Aufbau von finanzieller Allgemeinbildung ist heute wichtiger denn je und um einen privaten Vermögensaufbau
