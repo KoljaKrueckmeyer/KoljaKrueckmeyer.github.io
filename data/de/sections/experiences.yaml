@@ -1,0 +1,86 @@
+section:
+  name: Projekterfahrungen
+  id: experiences
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  template: sections/experiences.html
+
+# Your experiences
+# Your experiences
+experiences:
+  - company:
+      name: IBM
+      url: "https://www.ibm.com"
+      location: Hamburg
+      # company overview
+      overview: IBM ist eines der weltweit führenden IT- und Beratungsunternehmen insbesondere für branchenspezifische Lösungen und Dienstleistungen im IT-Bereich sowie Software und Hardware
+    positions:
+      - designation: Cloud-Migration und Absicherung mit OAUTH 2
+        start: 09/2021
+        end: 02/2022
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        # end: Dec 2020
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+          - Migration einer Applikation vom klassischem WebSphere Application Server die Cloud mit dem WebSphere Liberty Profile.
+          - Beratung bei der Absicherung von REST Endpunkten mit OAUTH 2 und der Authentifizierung von Benutzern mit OpenId Connect.
+           
+      - designation: Erstellung eines Pflichtenheftes für eine deutsche Behörde
+        start: 04/2021
+        end: 08/2021
+        responsibilities:
+          - Erstellung eines technischen Pflichtenheftes auf Basis eines Lastenheftes
+          - Systemanwendungsfälle und Beschreibung zur technischen Umsetzung
+          - Definition von Schnittstellen zu umliegenden Systemen
+          - Definition von Datenbankmodellen
+          - Erstellung von Klassen- und Sequenzdiagrammen zu den wichtigsten Abläufen
+
+      - designation: Migration eines Webshops in die Cloud
+        start: 04/2019
+        end: 03/2021
+        responsibilities:
+          - Als Architekt und Entwickler war ich einem Scrum-Team tätig, welches sich um die Präsentation der Produkte im Webshop kümmert.
+          - Unterstützung bei der Realsierung des Webshops im Cloud-Umfeld
+          - Beratung bei der Erstellung und Umsetzung von Architektur-Konzepten als auch zu neuen Technologien wie Kafka, MongoDB oder Spring Boot sowie der Einführung von DevOps Ansätzen.
+          - Performance-Optimierung im Zusammenhang mit Kafka und MongoDB
+          - Konzepterstellung und Umsetzung eines Systems zur Verteilung von Konfigurationseinstellungen im Cloud-Umfeld
+
+      - designation: Entwickler und IT Architekt in der Automobilbranche
+        start: 04/2021
+        end: 08/2021
+        responsibilities:
+          - Ich war verantwortlich für die Erstellung und den Betrieb von Microservices im DevOps Ansatz
+          - Fullstack Entwickler auf Basis der Technologien Kubernetes, Docker, REST und Angular
+          - Ansprechpartner für den Fachbereich des Kunden und das Entwicklungsteam in der Rolle des Supplier Product Owners
+          - Konzepterstellung zur Modularisierung des Codes nach funktionalen Gesichtspunkten
+          - Entwicklung und Umsetzung eines Maßnahmenkatalogs zur Erhöhung der Codequalität
+          - Präsentation und Moderation von Sprint Reviews
+          - Beratung bei Stellenausschreibungen
+          - Entwicklung von Proof-of-Concepts unter Verwendung neuster Webtechnologien
+          - Erstellung von Architekturdiagrammen zur Verbesserung der Dokumentation
+          - Optimierung des Build- und Deploymentprozesses
+          - Förderung einer „Continuous Improvement” Mentalität
+          - Analysen und Konzepterstellung zur Verbesserung der Websecurity
+          - Verbesserung der Continuous Delivery
+
+  - company:
+      name: Materna
+      url: "https://www.materna.de"
+      location: Hamburg
+      overview: IT-Dienstleister
+    positions:
+      - designation: Software Engineer im Projekt SEO-STAR, OTTO Gmbh
+        start: 06/2013
+        end: 02/2014
+        responsibilities:
+          - Entwicklung einer Portal-Anwendung zur Analyse und Reporting von SEO Daten
+          - Erstellung und Umsetzung von Systemarchitekturen, Modellierung von Klassendiagrammen und Prozessabläufen
+          - Erstellung von Unit-Tests, Performance-Tuning im Hinblick auf Umgang mit großen Datenmengen und effizienter Verarbeitungslogik, Einrichtung und Konfiguration von Openstack-Instanzen, Postgres-Datenbanken, Liferay-Portal, Nginx, Jenkins-Jobs
+
+      - designation: Unterstützung der Entwicklung des Webshops, OTTO Gmbh
+        start: 01/2011
+        end: 06/2013
+        responsibilities:
+          - Unterstützung der Entwicklung des Webshops otto.de im Rahmen des Tagesgeschäfts
+          - Analysen, Wartung und Weiterentwicklung des Webshops als Full-Stack-Entwickler in Zusammenarbeit mit dem Produktmanagement
