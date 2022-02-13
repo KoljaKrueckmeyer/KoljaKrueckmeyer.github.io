@@ -1,0 +1,15 @@
+section:
+  name: Projekte
+  id: projects
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  template: sections/projects.html
+
+projects:
+- name: Wohnungschecker
+  role: Developer
+  timeline: "Januar 2022"
+  repo: https://github.com/KoljaKrueckmeyer/wohnungschecker
+  summary: Website check für aktuelle Angebote Hamburger Baugenossenschaften
+  tags: ["wohung", "check", "hamburg"]
